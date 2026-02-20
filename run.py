@@ -112,7 +112,7 @@ def main():
         
         print(json.dumps(error_metrics, indent=4))
         write_json(args.output, error_metrics)
-        sys.exit(1) # Exit with a non-zero code on failure [cite: 35]
+        sys.exit(1) # Exit with a non-zero code on failure  
 
 if __name__ == "__main__":
     main()
